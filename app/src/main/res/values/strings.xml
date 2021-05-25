@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PlantyHouse</string>
+    <string name="plant_name">Nama Tanaman</string>
+    <string name="list_plant">List Tanaman</string>
+    <string name="detail_plant">Detail Tanaman</string>
+    <string name="plant_alias">Nama lain tanaman</string>
+    <string name="description_text">Deskripsi tanaman</string>
+    <string name="my_name">Maulana</string>
+    <string name="about_me">About Me</string>
+    <string name="my_email">maulanawahyudi701@gmail.com</string>
+</resources>

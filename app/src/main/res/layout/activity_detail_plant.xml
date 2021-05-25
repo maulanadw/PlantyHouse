@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPlantActivity"
+    android:orientation="vertical">
+
+    <!-- Membuat toolbar -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_rectangle">
+
+        <ImageButton
+            android:id="@+id/btnKembali"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_back_white"
+            android:background="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/detail_plant"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_image_photo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_weight="70" />
+
+    <TextView
+        android:id="@+id/tv_plant_name"
+        style="@style/TextContent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/plant_name"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:id="@+id/tv_plant_alias"
+        style="@style/TextContent.Subtitle"
+        android:layout_marginBottom="16dp"
+        android:text="@string/plant_alias"/>
+
+    <TextView
+        android:id="@+id/tv_plant_description"
+        style="@style/TextContent"
+        android:layout_marginBottom="16dp"
+        android:lineSpacingMultiplier="1"
+        android:text="@string/description_text"/>
+</LinearLayout>
