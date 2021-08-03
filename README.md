@@ -1,5 +1,7 @@
-# PlantyHouse
-Submission Proyek Aplikasi Sederhana
+Belajar Membuat Aplikasi Android untuk Pemula
+==
+Submission Proyek Akhir Aplikasi Android Sederhana
+--
 
 Fitur yang ada pada aplikasi :
 
